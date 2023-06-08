@@ -49,3 +49,53 @@ h1 {
 img {
     height: 100vh;
 }
+
+button,
+input,
+textarea {
+    font-family: Raleway, sansserif;
+    font-size: 100%;
+    margin-top: 20px;
+}
+
+input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #3c673c;
+}
+
+input::placeholder {
+    opacity: 0.5;
+    color: #3c673c;
+}
+
+input:focus {
+    border: none;
+}
+
+textarea { 
+    background: rgb(255,255,255,0.5) ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+button {
+    cursor: pointer;
+    border-style: none;
+    background: #3c673c;
+    color: #fff;
+    padding: 5px 0px;
+  }
+  
+  button:hover,
+  button:focus {
+    outline: none;
+    background-color: rgb(255,255,255,0.5);
+    border-style: none;
+    border: 1px solid #3c673c;
+    color: #3c673c;
+  }
